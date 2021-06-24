@@ -11,7 +11,7 @@ import time
 import statistics
 import sys
 
-from PIL import Image
+# from PIL import Image
 import fontTools.ttLib
 from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import letter, A4

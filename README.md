@@ -74,6 +74,8 @@ The draw server should can be run by gunicorn for a production environment. `bal
 NIST 1500-100 (version 2) is a specification on election results *reporting*, but is used here because it has all the structural information about candidates and contests and the election as a whole.
 We extend it with a few additional fields about ballot layout and rendering.
 
+[usnistgov/ElectionResultsReporting](https://github.com/usnistgov/ElectionResultsReporting/tree/version2)
+
 ### "ElectionResults.BallotStyle"
 
 Optional field "PageHeader" is a string that would be rendered at the top of each page. For example:
