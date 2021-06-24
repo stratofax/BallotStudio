@@ -19,6 +19,8 @@ Ballot Studio is in two parts, a Python back end that draws PDF ballots, and a g
   * `tar zxvf resources.tar.gz`
 * Liberation fonts may have newer versions available at https://github.com/liberationfonts/liberation-fonts/releases
 
+[reportlab · PyPI](https://pypi.org/project/reportlab/#files)
+
 ### Go Setup
 
 * Install Go from https://golang.org/dl
