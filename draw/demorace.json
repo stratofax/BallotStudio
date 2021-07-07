@@ -1,0 +1,840 @@
+{
+  "@type": "ElectionReport",
+  "Election": [
+    {
+      "@type": "ElectionResults.Election",
+      "BallotStyle": [
+        {
+          "@type": "ElectionResults.BallotStyle",
+          "GpUnitIds": [
+            "gpunit1"
+          ],
+          "OrderedContent": [
+            {
+              "@type": "ElectionResults.OrderedHeader",
+              "HeaderId": "header1"
+            },
+            {
+              "@type": "ElectionResults.OrderedHeader",
+              "HeaderId": "header2"
+            },
+            {
+              "@type": "ElectionResults.OrderedContest",
+              "ContestId": "ccont1"
+            },
+            {
+              "@type": "ElectionResults.OrderedContest",
+              "ContestId": "ccont2"
+            },
+            {
+              "@type": "ElectionResults.OrderedContest",
+              "ContestId": "ccont3"
+            },
+            {
+              "@type": "ElectionResults.OrderedContest",
+              "ContestId": "bmcont1"
+            },
+            {
+              "@type": "ElectionResults.OrderedContest",
+              "ContestId": "ccont4"
+            }
+          ],
+          "PageHeader": "General Election, 2022-11-08\nPrecinct 5050, Springfield, OR, page {PAGE} of {PAGES}"
+        },
+        {
+          "@type": "ElectionResults.BallotStyle",
+          "GpUnitIds": [
+            "gpunit2"
+          ],
+          "OrderedContent": [
+            {
+              "@type": "ElectionResults.OrderedHeader",
+              "HeaderId": "header1"
+            },
+            {
+              "@type": "ElectionResults.OrderedHeader",
+              "HeaderId": "header2"
+            },
+            {
+              "@type": "ElectionResults.OrderedContest",
+              "ContestId": "ccont1"
+            },
+            {
+              "@type": "ElectionResults.OrderedContest",
+              "ContestId": "ccont5"
+            },
+            {
+              "@type": "ElectionResults.OrderedContest",
+              "ContestId": "bmcont1"
+            },
+            {
+              "@type": "ElectionResults.OrderedContest",
+              "ContestId": "ccont4"
+            }
+          ],
+          "PageHeader": "General Election, 2022-11-08\nPrecinct 1234, Desert Bluffs, OR, page {PAGE} of {PAGES}"
+        },
+        {
+          "@type": "ElectionResults.BallotStyle",
+          "GpUnitIds": [
+            "gpunit3"
+          ],
+          "OrderedContent": [
+            {
+              "@type": "ElectionResults.OrderedHeader",
+              "HeaderId": "header1"
+            },
+            {
+              "@type": "ElectionResults.OrderedHeader",
+              "HeaderId": "header2"
+            },
+            {
+              "@type": "ElectionResults.OrderedContest",
+              "ContestId": "ccont1"
+            },
+            {
+              "@type": "ElectionResults.OrderedContest",
+              "ContestId": "bmcont1"
+            },
+            {
+              "@type": "ElectionResults.OrderedContest",
+              "ContestId": "ccont6"
+            },
+            {
+              "@type": "ElectionResults.OrderedContest",
+              "ContestId": "ccont4"
+            }
+          ],
+          "PageHeader": "General Election, 2022-11-08\nPrecinct 0999, Erewhon, OR, page {PAGE} of {PAGES}"
+        }
+      ],
+      "Candidate": [
+        {
+          "@id": "candidate1",
+          "@type": "ElectionResults.Candidate",
+          "BallotName": "Zaphod Beeblebrox",
+          "PersonId": "person1"
+        },
+        {
+          "@id": "candidate2",
+          "@type": "ElectionResults.Candidate",
+          "BallotName": "Zod",
+          "PersonId": "person2"
+        },
+        {
+          "@id": "candidate3",
+          "@type": "ElectionResults.Candidate",
+          "BallotName": "Zardoz",
+          "PersonId": "person3"
+        },
+        {
+          "@id": "candidate4",
+          "@type": "ElectionResults.Candidate",
+          "BallotName": "Alice Argyle",
+          "PersonId": "person4"
+        },
+        {
+          "@id": "candidate5",
+          "@type": "ElectionResults.Candidate",
+          "BallotName": "Bob Brocade",
+          "PersonId": "person5"
+        },
+        {
+          "@id": "candidate6",
+          "@type": "ElectionResults.Candidate",
+          "BallotName": "\u00c7andidate \u00d1ame \u4e80",
+          "PersonId": "person6"
+        },
+        {
+          "@id": "candidate7",
+          "@type": "ElectionResults.Candidate",
+          "BallotName": "Dorian Duck",
+          "PersonId": "person7"
+        },
+        {
+          "@id": "candidate8",
+          "@type": "ElectionResults.Candidate",
+          "BallotName": "Elaine Entwhistle",
+          "PersonId": "person8"
+        },
+        {
+          "@id": "candidate9",
+          "@type": "ElectionResults.Candidate",
+          "BallotName": "Sleepy",
+          "PersonId": "person9"
+        },
+        {
+          "@id": "candidate10",
+          "@type": "ElectionResults.Candidate",
+          "BallotName": "Happy",
+          "PersonId": "person10"
+        },
+        {
+          "@id": "candidate11",
+          "@type": "ElectionResults.Candidate",
+          "BallotName": "Dopey",
+          "PersonId": "person11"
+        },
+        {
+          "@id": "candidate12",
+          "@type": "ElectionResults.Candidate",
+          "BallotName": "Grumpy",
+          "PersonId": "person12"
+        },
+        {
+          "@id": "candidate13",
+          "@type": "ElectionResults.Candidate",
+          "BallotName": "Sneezy",
+          "PersonId": "person13"
+        },
+        {
+          "@id": "candidate14",
+          "@type": "ElectionResults.Candidate",
+          "BallotName": "Bashful",
+          "PersonId": "person14"
+        },
+        {
+          "@id": "candidate15",
+          "@type": "ElectionResults.Candidate",
+          "BallotName": "Doc",
+          "PersonId": "person15"
+        },
+        {
+          "@id": "candidate16",
+          "@type": "ElectionResults.Candidate",
+          "BallotName": "Larry",
+          "PersonId": "person16"
+        },
+        {
+          "@id": "candidate17",
+          "@type": "ElectionResults.Candidate",
+          "BallotName": "Moe",
+          "PersonId": "person17"
+        },
+        {
+          "@id": "candidate18",
+          "@type": "ElectionResults.Candidate",
+          "BallotName": "Curly",
+          "PersonId": "person18"
+        },
+        {
+          "@id": "candidate19",
+          "@type": "ElectionResults.Candidate",
+          "BallotName": "Kevin",
+          "PersonId": "person19"
+        },
+        {
+          "@id": "candidate20",
+          "@type": "ElectionResults.Candidate",
+          "BallotName": "Tamika Flynn",
+          "PersonId": "person20"
+        },
+        {
+          "@id": "candidate21",
+          "@type": "ElectionResults.Candidate",
+          "BallotName": "Hiram McDaniels",
+          "PersonId": "person21"
+        },
+        {
+          "@id": "candidate22",
+          "@type": "ElectionResults.Candidate",
+          "BallotName": "Honor Harrington",
+          "PersonId": "person22"
+        },
+        {
+          "@id": "candidate23",
+          "@type": "ElectionResults.Candidate",
+          "BallotName": "Cardenia Wu-Patrick",
+          "PersonId": "person23"
+        },
+        {
+          "@id": "candidate24",
+          "@type": "ElectionResults.Candidate",
+          "BallotName": "Ellenor Arroway",
+          "PersonId": "person24"
+        }
+      ],
+      "Contest": [
+        {
+          "@id": "ccont1",
+          "@type": "ElectionResults.CandidateContest",
+          "BallotSubTitle": "Vote for as many as you like",
+          "BallotTitle": "The Race For Everything",
+          "ContestSelection": [
+            {
+              "@id": "csel1",
+              "@type": "ElectionResults.CandidateSelection",
+              "CandidateIds": [
+                "candidate4"
+              ]
+            },
+            {
+              "@id": "csel2",
+              "@type": "ElectionResults.CandidateSelection",
+              "CandidateIds": [
+                "candidate5"
+              ]
+            },
+            {
+              "@id": "csel3",
+              "@type": "ElectionResults.CandidateSelection",
+              "CandidateIds": [
+                "candidate6"
+              ]
+            },
+            {
+              "@id": "csel4",
+              "@type": "ElectionResults.CandidateSelection",
+              "CandidateIds": [
+                "candidate7"
+              ]
+            },
+            {
+              "@id": "csel5",
+              "@type": "ElectionResults.CandidateSelection",
+              "CandidateIds": [
+                "candidate8"
+              ]
+            }
+          ],
+          "ElectionDistrictId": "gpunit4",
+          "Name": "Everything",
+          "NumberElected": 1,
+          "OfficeIds": [
+            "office3"
+          ],
+          "VoteVariation": "approval",
+          "VotesAllowed": 5
+        },
+        {
+          "@id": "ccont2",
+          "@type": "ElectionResults.CandidateContest",
+          "BallotSubTitle": "Vote for one",
+          "BallotTitle": "Head Dwarf",
+          "ContestSelection": [
+            {
+              "@id": "csel6",
+              "@type": "ElectionResults.CandidateSelection",
+              "CandidateIds": [
+                "candidate9"
+              ]
+            },
+            {
+              "@id": "csel7",
+              "@type": "ElectionResults.CandidateSelection",
+              "CandidateIds": [
+                "candidate10"
+              ]
+            },
+            {
+              "@id": "csel8",
+              "@type": "ElectionResults.CandidateSelection",
+              "CandidateIds": [
+                "candidate11"
+              ]
+            },
+            {
+              "@id": "csel9",
+              "@type": "ElectionResults.CandidateSelection",
+              "CandidateIds": [
+                "candidate12"
+              ]
+            },
+            {
+              "@id": "csel10",
+              "@type": "ElectionResults.CandidateSelection",
+              "CandidateIds": [
+                "candidate13"
+              ]
+            },
+            {
+              "@id": "csel11",
+              "@type": "ElectionResults.CandidateSelection",
+              "CandidateIds": [
+                "candidate14"
+              ]
+            },
+            {
+              "@id": "csel12",
+              "@type": "ElectionResults.CandidateSelection",
+              "CandidateIds": [
+                "candidate15"
+              ]
+            }
+          ],
+          "ElectionDistrictId": "gpunit1",
+          "Name": "Head Dwarf",
+          "NumberElected": 1,
+          "OfficeIds": [
+            "office1"
+          ],
+          "VoteVariation": "plurality",
+          "VotesAllowed": 1
+        },
+        {
+          "@id": "ccont3",
+          "@type": "ElectionResults.CandidateContest",
+          "BallotSubTitle": "Vote for one",
+          "BallotTitle": "Chief Stooge",
+          "ContestSelection": [
+            {
+              "@id": "csel13",
+              "@type": "ElectionResults.CandidateSelection",
+              "CandidateIds": [
+                "candidate16"
+              ]
+            },
+            {
+              "@id": "csel14",
+              "@type": "ElectionResults.CandidateSelection",
+              "CandidateIds": [
+                "candidate17"
+              ]
+            },
+            {
+              "@id": "csel15",
+              "@type": "ElectionResults.CandidateSelection",
+              "CandidateIds": [
+                "candidate18"
+              ]
+            }
+          ],
+          "ElectionDistrictId": "gpunit1",
+          "Name": "Chief Stooge",
+          "NumberElected": 1,
+          "OfficeIds": [
+            "office2"
+          ],
+          "VoteVariation": "plurality",
+          "VotesAllowed": 1
+        },
+        {
+          "@id": "bmcont1",
+          "@type": "ElectionResults.BallotMeasureContest",
+          "BallotSubTitle": "Vote Yes or No",
+          "BallotTitle": "Should We Win",
+          "ConStatement": "Winning is hard work, let's take a nap",
+          "ContestSelection": [
+            {
+              "@id": "bmsel1",
+              "@type": "ElectionResults.BallotMeasureSelection",
+              "Selection": "Yes",
+              "SequenceOrder": 1
+            },
+            {
+              "@id": "bmsel2",
+              "@type": "ElectionResults.BallotMeasureSelection",
+              "Selection": "No",
+              "SequenceOrder": 2
+            }
+          ],
+          "ElectionDistrictId": "gpunit4",
+          "FullText": "blah blah blah [insert full text of plan here] fnord fnord fnord",
+          "InfoUri": "https://betterpolls.com/",
+          "Name": "Winning",
+          "ProStatement": "Winning is awesome, let's do it",
+          "SummaryText": "[insert short text here]",
+          "Type": "referendum"
+        },
+        {
+          "@id": "ccont4",
+          "@type": "ElectionResults.CandidateContest",
+          "BallotSubTitle": "Vote for one",
+          "BallotTitle": "The Race To The Bottom",
+          "ContestSelection": [
+            {
+              "@id": "csel16",
+              "@type": "ElectionResults.CandidateSelection",
+              "CandidateIds": [
+                "candidate1"
+              ]
+            },
+            {
+              "@id": "csel17",
+              "@type": "ElectionResults.CandidateSelection",
+              "CandidateIds": [
+                "candidate2"
+              ]
+            },
+            {
+              "@id": "csel18",
+              "@type": "ElectionResults.CandidateSelection",
+              "CandidateIds": [
+                "candidate3"
+              ]
+            }
+          ],
+          "ElectionDistrictId": "gpunit4",
+          "Name": "Bottom",
+          "NumberElected": 1,
+          "OfficeIds": [
+            "office4"
+          ],
+          "VoteVariation": "plurality",
+          "VotesAllowed": 1
+        },
+        {
+          "@id": "ccont5",
+          "@type": "ElectionResults.CandidateContest",
+          "BallotSubTitle": "Vote for one",
+          "BallotTitle": "Best Smile",
+          "ContestSelection": [
+            {
+              "@id": "csel19",
+              "@type": "ElectionResults.CandidateSelection",
+              "CandidateIds": [
+                "candidate19"
+              ]
+            },
+            {
+              "@id": "csel20",
+              "@type": "ElectionResults.CandidateSelection",
+              "CandidateIds": [
+                "candidate20"
+              ]
+            },
+            {
+              "@id": "csel21",
+              "@type": "ElectionResults.CandidateSelection",
+              "CandidateIds": [
+                "candidate21"
+              ]
+            }
+          ],
+          "ElectionDistrictId": "gpunit2",
+          "Name": "Best Smile",
+          "NumberElected": 1,
+          "OfficeIds": [
+            "office5"
+          ],
+          "VoteVariation": "plurality",
+          "VotesAllowed": 1
+        },
+        {
+          "@id": "ccont6",
+          "@type": "ElectionResults.CandidateContest",
+          "BallotSubTitle": "Vote for one",
+          "BallotTitle": "Emperox",
+          "ContestSelection": [
+            {
+              "@id": "csel22",
+              "@type": "ElectionResults.CandidateSelection",
+              "CandidateIds": [
+                "candidate22"
+              ]
+            },
+            {
+              "@id": "csel23",
+              "@type": "ElectionResults.CandidateSelection",
+              "CandidateIds": [
+                "candidate23"
+              ]
+            },
+            {
+              "@id": "csel24",
+              "@type": "ElectionResults.CandidateSelection",
+              "CandidateIds": [
+                "candidate24"
+              ]
+            }
+          ],
+          "ElectionDistrictId": "gpunit3",
+          "Name": "Emperox",
+          "NumberElected": 1,
+          "OfficeIds": [
+            "office6"
+          ],
+          "VoteVariation": "plurality",
+          "VotesAllowed": 1
+        }
+      ],
+      "ElectionScopeId": "gpunit1",
+      "EndDate": "2022-11-08",
+      "Name": "Hypothetical Election",
+      "StartDate": "2022-11-08",
+      "Type": "special"
+    }
+  ],
+  "Format": "summary-contest",
+  "GeneratedDate": "2021-06-29 17:02:52 -0400",
+  "GpUnit": [
+    {
+      "@id": "gpunit1",
+      "@type": "ElectionResults.ReportingUnit",
+      "Name": "Springfield",
+      "Type": "city"
+    },
+    {
+      "@id": "gpunit2",
+      "@type": "ElectionResults.ReportingUnit",
+      "Name": "Desert Bluffs",
+      "Type": "city"
+    },
+    {
+      "@id": "gpunit3",
+      "@type": "ElectionResults.ReportingUnit",
+      "Name": "Erewhon",
+      "Type": "city"
+    },
+    {
+      "@id": "gpunit4",
+      "@type": "ElectionResults.ReportingUnit",
+      "ComposingGpUnitIds": [
+        "gpunit1",
+        "gpunit2",
+        "gpunit3"
+      ],
+      "Name": "Oregon",
+      "Type": "state"
+    }
+  ],
+  "Header": [
+    {
+      "@id": "header1",
+      "@type": "ElectionResults.Header",
+      "Name": "Instructions"
+    },
+    {
+      "@id": "header2",
+      "@type": "ElectionResults.Header",
+      "Name": "ColumnBreak"
+    },
+    {
+      "@id": "header3",
+      "@type": "ElectionResults.Header",
+      "Name": "PageBreak"
+    }
+  ],
+  "IsTest": true,
+  "Issuer": "bolson",
+  "IssuerAbbreviation": "bolson",
+  "Office": [
+    {
+      "@id": "office1",
+      "@type": "ElectionResults.Office",
+      "Name": "Head Dwarf"
+    },
+    {
+      "@id": "office2",
+      "@type": "ElectionResults.Office",
+      "Name": "Chief Stooge"
+    },
+    {
+      "@id": "office3",
+      "@type": "ElectionResults.Office",
+      "Name": "Everything"
+    },
+    {
+      "@id": "office4",
+      "@type": "ElectionResults.Office",
+      "Description": "The race for the bottom",
+      "Name": "Bottom"
+    },
+    {
+      "@id": "office5",
+      "@type": "ElectionResults.Office",
+      "Description": "Best Smile",
+      "Name": "Smile"
+    },
+    {
+      "@id": "office6",
+      "@type": "ElectionResults.Office",
+      "Description": "Emperox",
+      "Name": "Emperox"
+    }
+  ],
+  "Party": [
+    {
+      "@id": "party1",
+      "@type": "ElectionResults.Party",
+      "Name": "Woot",
+      "Slogan": "Come party with the party"
+    },
+    {
+      "@id": "party2",
+      "@type": "ElectionResults.Party",
+      "Name": "Anklebiter Assembly",
+      "Slogan": "grrr, narf, bite"
+    },
+    {
+      "@id": "party3",
+      "@type": "ElectionResults.Party",
+      "Name": "Boring Board",
+      "Slogan": "zzzzz"
+    },
+    {
+      "@id": "party4",
+      "@type": "ElectionResults.Party",
+      "Name": "Cowardly Coalition",
+      "Slogan": "zzzzz"
+    },
+    {
+      "@id": "party5",
+      "@type": "ElectionResults.Party",
+      "Name": "Dumb Department",
+      "Slogan": "duh, er, wut?"
+    },
+    {
+      "@id": "party6",
+      "@type": "ElectionResults.Party",
+      "Name": "Electable Entertainers",
+      "Slogan": "Let us entertain you"
+    },
+    {
+      "@id": "party7",
+      "@type": "ElectionResults.Party",
+      "Name": "Galaxy",
+      "Slogan": "Don't Panic"
+    },
+    {
+      "@id": "party8",
+      "@type": "ElectionResults.Party",
+      "Name": "Krypton",
+      "Slogan": "Nice yellow sun you got there"
+    }
+  ],
+  "Person": [
+    {
+      "@id": "person1",
+      "@type": "ElectionResults.Person",
+      "FullName": "Zaphod Beeblebrox",
+      "PartyId": "party7",
+      "Profession": "He's just this guy, you know?"
+    },
+    {
+      "@id": "person2",
+      "@type": "ElectionResults.Person",
+      "FullName": "Zod",
+      "PartyId": "party8",
+      "Profession": "Kneel",
+      "Title": "General"
+    },
+    {
+      "@id": "person3",
+      "@type": "ElectionResults.Person",
+      "FullName": "Zardoz",
+      "PartyId": "party1",
+      "Profession": "There can be only one"
+    },
+    {
+      "@id": "person4",
+      "@type": "ElectionResults.Person",
+      "FullName": "Alice Argyle",
+      "PartyId": "party2",
+      "Profession": "Axolotol"
+    },
+    {
+      "@id": "person5",
+      "@type": "ElectionResults.Person",
+      "FullName": "Bob Brocade",
+      "PartyId": "party3",
+      "Profession": "Bollard"
+    },
+    {
+      "@id": "person6",
+      "@type": "ElectionResults.Person",
+      "FullName": "\u00c7andidate \u00d1ame \u4e80",
+      "PartyId": "party4",
+      "Profession": "Camp Councilor"
+    },
+    {
+      "@id": "person7",
+      "@type": "ElectionResults.Person",
+      "FullName": "Dorian Duck",
+      "PartyId": "party5",
+      "Profession": "Doorstop"
+    },
+    {
+      "@id": "person8",
+      "@type": "ElectionResults.Person",
+      "FullName": "Elaine Entwhistle",
+      "PartyId": "party6",
+      "Profession": "Electrician"
+    },
+    {
+      "@id": "person9",
+      "@type": "ElectionResults.Person",
+      "FullName": "Sleepy"
+    },
+    {
+      "@id": "person10",
+      "@type": "ElectionResults.Person",
+      "FullName": "Happy"
+    },
+    {
+      "@id": "person11",
+      "@type": "ElectionResults.Person",
+      "FullName": "Dopey"
+    },
+    {
+      "@id": "person12",
+      "@type": "ElectionResults.Person",
+      "FullName": "Grumpy"
+    },
+    {
+      "@id": "person13",
+      "@type": "ElectionResults.Person",
+      "FullName": "Sneezy"
+    },
+    {
+      "@id": "person14",
+      "@type": "ElectionResults.Person",
+      "FullName": "Bashful"
+    },
+    {
+      "@id": "person15",
+      "@type": "ElectionResults.Person",
+      "FullName": "Doc"
+    },
+    {
+      "@id": "person16",
+      "@type": "ElectionResults.Person",
+      "FullName": "Larry"
+    },
+    {
+      "@id": "person17",
+      "@type": "ElectionResults.Person",
+      "FullName": "Moe"
+    },
+    {
+      "@id": "person18",
+      "@type": "ElectionResults.Person",
+      "FullName": "Curly"
+    },
+    {
+      "@id": "person19",
+      "@type": "ElectionResults.Person",
+      "FullName": "Kevin"
+    },
+    {
+      "@id": "person20",
+      "@type": "ElectionResults.Person",
+      "FullName": "Tamika Flynn"
+    },
+    {
+      "@id": "person21",
+      "@type": "ElectionResults.Person",
+      "FullName": "Hiram McDaniels"
+    },
+    {
+      "@id": "person22",
+      "@type": "ElectionResults.Person",
+      "FullName": "Honor Harrington"
+    },
+    {
+      "@id": "person23",
+      "@type": "ElectionResults.Person",
+      "FullName": "Cardenia Wu-Patrick"
+    },
+    {
+      "@id": "person24",
+      "@type": "ElectionResults.Person",
+      "FullName": "Ellenor Arroway"
+    }
+  ],
+  "SequenceEnd": 1,
+  "SequenceStart": 1,
+  "Status": "pre-election",
+  "TestType": "pre-election,design",
+  "VendorApplicationId": "bolson's ballots 0.0.1"
+}
